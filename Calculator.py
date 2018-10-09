@@ -1,5 +1,6 @@
-p = int(input('请输入税前月收入：'))
-i = int(input('请输入五险一金：'))
+p = float(input('请输入税前月收入：'))
+i = float(input('请输入五险一金：'))
+
 def CalcOld():
     threshold = 3500
     pt = p - i - threshold
