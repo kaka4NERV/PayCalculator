@@ -41,4 +41,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    input('按下任意键退出程序')
